@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "861583715849",
+    "firebase_url": "https://buzzer-ae378.firebaseio.com",
+    "project_id": "buzzer-ae378",
+    "storage_bucket": "buzzer-ae378.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861583715849:android:71936bc936d48c847812d8",
+        "android_client_info": {
+          "package_name": "com.example.buzzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861583715849-dbsopum1t354edqf8i6apgknhikek4h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buzzer",
+            "certificate_hash": "bba4154f6e75c8084246772d1a961fcd4bb622fc"
+          }
+        },
+        {
+          "client_id": "861583715849-mums165fmeihsum5fibmfe2ej0fs38gf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buzzer",
+            "certificate_hash": "5546542768f3821e9aece903158af61799de6c50"
+          }
+        },
+        {
+          "client_id": "861583715849-vcovj5siak2s3ip0k39218ir7uuqnjbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuLIyNYDw0GKm7fXXdhHsSR7V37bg6K90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861583715849-vcovj5siak2s3ip0k39218ir7uuqnjbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

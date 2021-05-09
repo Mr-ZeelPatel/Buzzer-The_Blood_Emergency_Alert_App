@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="9dp"
+    app:cardBackgroundColor="#fff"
+    android:layout_marginLeft="9dp"
+    android:layout_marginRight="9dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/name"
+      android:padding="5dp"
+      android:text="Name : "
+      android:textSize="16dp">
+  </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bg"
+            android:padding="5dp"
+            android:text="Blood Group : "
+            android:textSize="16dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/city"
+            android:padding="5dp"
+            android:text="City : "
+            android:textSize="16dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/cntno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Contact no. : "
+            android:textSize="16dp"></TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

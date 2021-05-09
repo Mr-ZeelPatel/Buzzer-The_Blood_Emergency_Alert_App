@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkpink"
+    android:orientation="vertical"
+    tools:context=".hospital_signup">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:background="@drawable/ic_wave2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="Hospittal id"
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme"
+        app:hintTextColor="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hospitalname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name of Hospital"
+            android:textColor="#ffffff"
+            app:hintTextColor="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:hint="Contact No."
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme"
+        app:hintTextColor="#ffffff">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cntno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/haddress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address Line 1"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="#ffffff"
+        android:theme="@style/AppTheme">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/amiko_semibold"
+        android:text="signup"
+        android:textColor="@color/darkpink" />
+</androidx.appcompat.widget.LinearLayoutCompat>
