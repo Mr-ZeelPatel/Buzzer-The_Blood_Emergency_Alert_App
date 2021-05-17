@@ -77,10 +77,15 @@ class hospitallogin() : AppCompatActivity() {
         }
         val intent: Intent = Intent(applicationContext, HLocation::class.java)
         startService(intent)
-        buzz.setOnClickListener {
+         buzz.setOnClickListener {
             var bloodGroup = bg.text.toString()
-            if(bloodGroup.isNotEmpty()){
-            getLocationAndCompare(bloodGroup)}
+            if(bloodGroup.isNotEmpty()) {
+                if (bloodGroup.toLowerCase() == "ab+" || bloodGroup.toLowerCase() == "ab-" || bloodGroup.toLowerCase() == "a+" || bloodGroup.toLowerCase() == "a-" || bloodGroup.toLowerCase() == "b+" || bloodGroup.toLowerCase() == "b-" || bloodGroup.toLowerCase() == "o+" || bloodGroup.toLowerCase() == "o-") {
+                    getLocationAndCompare(bloodGroup)
+                } else {
+                    Toast.makeText(this, "Enter valid blood group", Toast.LENGTH_LONG).show()
+                }
+            }
             else{
                 Toast.makeText(this,"Please enter blood group",Toast.LENGTH_SHORT).show()
             }
@@ -166,7 +171,7 @@ class hospitallogin() : AppCompatActivity() {
                                     distance = distance * 1.609344
                                     //   var bg: String = document.get("bloodgroup") as String
 
-                                     if (distance < 7) {
+                                     if (distance < 5) {
                                     //add notofication data to firebase
                                          var title = h_name
                                          var message = h_add
